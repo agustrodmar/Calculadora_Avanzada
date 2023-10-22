@@ -19,5 +19,5 @@
     <string name="txt_btnDec">.</string>
     <string name="txt_txtPantalla">%1$s</string>
     <string name="txt_txtDetalle">%1$s</string>
-    <string name="btnC">C</string>
+   <string name="btnC"><![CDATA[C]]></string>
 </resources>
