@@ -231,8 +231,10 @@ class MainActivity : AppCompatActivity() {
     /**
      * Muestra un mensaje de error en pantalla durante un tiempo corto.
      *
-     * @msj mensaje de error
+     * @msj mensaje de error. Suprimo el soft warning porque en un futuro puede interesarme 
+     * añadir otros msj, por lo que no quiero modificar el código.
      */
+     @Suppress("SameParameterValue") 
     private fun mensajeError(msj: String) {
         Toast.makeText(this, msj, Toast.LENGTH_SHORT).show()
     }
